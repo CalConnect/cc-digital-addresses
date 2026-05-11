@@ -1,0 +1,4 @@
+documents:
+  - source: sources/cc-19160-6.adoc
+  - source: sources/iso-19160-6.adoc
+    visibility: private

@@ -1,0 +1,740 @@
+
+ID: AU-004
+
+* Figure C11
+* ge
+* This figure, and others, indicate URIs for identification of resources, in this case a UK profile of 19160. Are these URIs intended to resolve? If so, what is the logic for profile identification and why has the pseudo file extension “.adp” been chosen over a regular string token?
+* Logic for the propose URIs should be established with GOM
+* Accepted as a question. Yes, the URIs are intended to be resolved after the registry is implemented. The file extension of “adp” is chosen because it will be registered as a MIME type at IANA for interchangeable address profiles.
+
+
+ID: AU-005
+
+* Figure D1
+* ed
+* Unnecessary blank lines
+* Remove blank lines
+* Accepted and fixed.
+
+
+ID: AU-006
+
+
+* Figure D4
+* ed
+* A JavaScript variable is, presumably accidentally, included in the figure rendering this JSON invalid
+* Remove JavaScript variable and equals sign
+* Accepted and fixed.
+
+
+ID: AU-007
+
+
+* Figures 3, 6, 7 & 8
+* ed
+* Figures are unclear and illegible, even at high zoom
+* Insert higher resolution images
+* Accepted and fixed. All images have been re-done.
+
+
+ID: AU-008
+
+
+* Figures D5 & D6
+* ed
+* The JSON data in these figures includes comments /*…*/ but JSON doesn’t allow comments, so they are not valid JSON
+* Place content of comments in Figure caption
+* Accepted and fixed.
+
+
+ID: ZA 2-009
+
+* 0.
+
+* Ed
+* The Introduction should not be numbered
+* Rejected. According to ISO DIR 2, 13.4, the Introduction should be numbered with 0 if it contains numbered subclauses.
+
+
+ID: GB-010
+
+* 0.1
+
+
+* Ed
+* Grammar / readability issue
+* Replace “enabling software applications the digital Interchange” with “enabling software applications by providing for the digital Interchange”
+* Accepted and fixed.
+
+
+ID: GB-011
+
+* 0.1
+
+
+* Ed
+* Grammar issue
+* Change “For instance of a software application in need of user input of address information, users need assistance from the application to enter the correct format and structure of the address for it to be machine readable and interoperable among different machines or systems which process the address data.” to something like
+“As an example, if a software application needs a user to input address information, in order to produce a machine readable address that is interoperable with other systems, the user would need assistance from the application to enter the address in the correct format and structure.”
+* Accepted and fixed. Text adopted from suggestion verbatim except replacing “As an example” with “For instance” since “example” is somewhat a reserved keyword in ISO-speak.
+
+
+ID: GB-012
+
+* 0.1
+
+
+* Ed
+* Singular/plural mismatch – suggest rewording
+* Change “The interchange of addresses require a common structure of address data” to “The interchange of address information requires a common structure of address data” or “Exchanging an address requires a common structure of address data” or similar
+* Accepted and fixed. Adopted the first suggestion.
+
+
+ID: US-013
+
+* 0.1
+
+
+* ed
+* Recommend wording change for the following paragraphs:
+The interchange of addresses require a common structure of address data. For instance of a software application in need of user input of address information, users need assistance from the application to enter the correct format and structure of the address for it to be machine readable and interoperable among different machines or systems which process the address data.
+This document specifies a set of data models that focuses on enabling software applications the digital interchange of address profiles, address instances and instructions for their input and display suitable for machine encoding of address information. These models are called the “Address Interchange Object” (“AXO”) models.
+* Propose:
+The interchange of addresses require a common structure of address data. For example, users of a software application requiring user input of address information need assistance from the application to enter the correct format and structure of the address for it to be machine readable and interoperable among different machines or systems which process the address data.
+This document specifies a set of data models that focuses on enabling software applications to digitally interchange address profiles, address instances and instructions for their input and display suitable for machine encoding of address information. These models are called the “Address Interchange Object” (“AXO”) models.
+* Accepted and fixed. Text from GB-011 adopted for the first 2 paragraphs. Text suggested here for the 3rd paragraph adopted verbatim.
+
+
+ID: ZA 3-014
+
+* 0.1
+
+
+* 3rd paragraph
+* Ed
+* Typo:
+The interchange of addresses require…
+* The interchange of addresses requires…
+* Accepted and fixed.
+
+
+ID: ZA 5-015
+
+* 0.2
+
+
+* Te
+* Under the second bullet, the relationship between ISO 19160-1 and ISO 19160-6 is described, instead of the relationship between ISO 19160-4 and ISO 19160-6. Also the relationship to ISO 19160-3 is not included.
+* Instead of describing the relationship between ISO 19160-6 and each other standard, describe the purpose or role of each standard.
+
+
+ID: ZA 4-016
+
+* 0.2
+
+
+* Te
+* ISO 19160-1 describes a single conceptual model, as indicated in its scope statement: “This part of ISO 19160 defines a conceptual model for address information”. Also, profiles are not necessarily international.
+* Replace with:
+ISO 19160 defines a conceptual model for address information. An ISO 19160-1 profile can be used as address specification for individual countries or communities. This document…
+
+
+ID: US-017
+
+* 0.2
+
+
+* ge
+* The work done by the ISO 19160-5 PT was important, however there does not appear to be document accessible to the reader/user of 19160-6. It seems that a project should not be referenced unless it has a deliverable (IS, TR, etc.) that can be reviewed.
+* Consider removing entire paragraph 3:
+
+
+ID: ISO 19160-5 focuses on the rendering of addresses for different devices with a focus on their representations on maps, virtual and augmented reality….
+
+Alternatively, reference a different relevant ISO standard if possible.
+* Accepted and fixed according to proposal.
+
+
+ID: GB-018
+
+* 0.2
+
+
+* 2nd bullet point
+* Ed
+* Typo or singular / plural mismatch
+* Replace “This documents adapts models” with “This document adapts models”
+* Accepted and fixed according to proposal.
+
+
+ID: ZA 6-019
+
+* 0.3
+
+
+* Ed
+* There is no clear link between this text and the standard. Requirements should not be specified in the introduction.
+* Revise the text so that it provides and introduction to the standard.
+
+
+ID: US -020
+
+* 0.3
+
+
+* te
+* First sentence of last paragraph says:
+Additional caution shall be placed on the accuracy (or lack thereof) of human input addresses.
+Unless this is a requirement, “shall” should be changed to “should”.
+* Change “shall” to “should”.
+
+
+ID: ZA 7-021
+
+* 0.4
+
+
+* Ed
+* The Scope statement is publicly available, and not necessary in the Introduction.
+* Remove the 0.4 from the Introduction.
+
+
+ID: GB-022
+
+* 0.4
+
+
+* EXAMPLE
+* Ed
+* Readability / grammar
+* Delete “in” from “in which provides”
+
+
+ID: ZA 10-023
+
+* 1
+
+* Te
+* Strictly speaking, if the AddressableObject is out of scope, then profiles of ISO 19160-1 that include this element are also out of scope. This restriction would eliminate many profiles.
+* Reword the last paragraph of the scope statement to make the exclusion clearer.
+
+
+ID: ZA 9-024
+
+* 1
+
+* Te
+* This part of the scope is addressed in ISO 19160-1 and should be removed:
+“data models for digital storage and interchange of addresses conforming to a specific address profile”
+* Remove “data models for digital storage and interchange of addresses conforming to a specific address profile” from the scope statement.
+
+
+ID: ZA 8-025
+
+* 1
+
+* Te
+* The convention of including acronyms (e.g. AXO) in UML elements was declared obsolete a few years ago.
+* Consult the HMMG on whether to keep AXO or not.
+
+
+ID: GB-026
+
+* 1
+
+* Ed
+* Plain English
+* Replace “usage” with “use”
+
+
+ID: US-027
+
+* 1
+
+* ed
+* The term “Addressability” is used but not defined or explained.
+* Clarify what is meant by “Addressability”.
+
+
+ID: US-028
+
+* 2
+
+* te
+* ISO 19157 (all parts), Geographic information – Data quality is listed as a normative reference but there is no reference to any part in the document.
+* Reference 19157 in the document if necessary or remove it as a normative reference.
+
+
+ID: US-029
+
+* 2
+
+* te
+* ISO 19160-3, Addressing – Part 3: Address data quality is not included as a normative or informative (in bibliography) reference.
+* Add ISO 19160-3, Addressing – Part 3: Address data quality to normative references or to bibliography (as appropriate). Also see comments on handling data quality including referencing ISO 19160-3.
+
+
+ID: ZA 11-030
+
+* 3.8
+
+
+* Te
+* ‘address feature’ is a combination of address and the term, feature (abstraction of real world phenomena) defined elsewhere in ISO TC/211 standards, and therefore not appropriate as term for this definition.
+* Use a different word than ‘feature’
+-031
+
+* Page 2
+* 3.8
+
+
+* Definition
+* Difference between ‘Address feature’ and ‘4.1 Address in 19160-1’. Feature is a general term to represent an entity (or geographical object) of a class (or a feature class such as buildings). Therefore, an instance of an address class is a feature (or address feature).
+If Address feature represents the status of a particular aspect of an interchange address instance mentioned in 13.1, address aspect or address status might be better term than address feature.
+* Address feature -> address aspect
+
+
+ID: ZA 12-032
+
+* 3.9, 3.10, 3.11
+
+
+* Te
+* Circular definitions.
+* Rephrase definitions so that they are not circular.
+
+
+ID: GB-033
+
+* 5
+
+* Ge
+* As this describes a register to be managed by ISO, it will be necessary to reference the edition of ISO 19135-1 as amended by Amendment 1, which is currently out for Draft vote. It seems likely that the current text of Draft Amendment 1 will need to be amended before publication to ensure it matches the requirements of ISO for registers. That Amendment will specifically amend ISO 19135-1 Clause C.5 which is the part of 19135-1 specific to registers that belong to ISO.
+
+It seems important to ISO to distinguish between a register of normative content, that is managed by an ISO Maintenance Agency, and a register of informative content that is managed by an ISO Registration Authoriyt.
+
+
+ID: GB-034
+
+* 5.2
+
+
+* Ge
+* How does copying requirements 1-12 from ISO 19135-1 relate to the statement that 19135-1 is a normative reference?
+The standard statement at 2 indicates that “some or all” of the content of the referred document constitute requirements of this document. Copying the text to this document implies that it is that copied text that is the requirement of this document, not the original.
+* Suggest referencing 19135-1 (+ Amd1) requirements 1-12, rather than copying them.
+This is in line with what is done in clause 5.5 in relation to 19160-1, except that that standard does not provide explicitly identified requirements.
+Perhaps more importantly, it is what is stated at 6.1, which says the roles & responsibility are set out in ISO 19135-1, not in this clause 5.2
+I acknowledge that this results in a less use friendly document. The alternative, as in this draft, is to move 19135-1 from being normative to bibliographic – and changing the reference to 19135-1 clause 5 in clause 6.1 of this document to be a reference to clause 5.2 in this document.
+
+
+ID: GB-035
+
+* 5.3
+
+
+* Ge
+* See comment for 5.2, but here applied to ISO 19135-1 requirements 13, 14, 16, 17, 19, 21, 22, 23
+
+
+ID: ZA 13-036
+
+* 5.5
+
+
+* Te
+* ISO 19160-1, clause 6 does not specify the management and submission of address profiles. This seems to be specified in clause 5 of ISO 19160-5?
+* Correct the reference.s
+
+
+ID: GB-037
+
+* 5.6
+* Ge
+* See comment for 5.2, but here applied to ISO 19135-1 requirements 24-26
+
+
+ID: ZA 14-038
+
+* 6
+* Te
+* There are various ambiguous and conflicting statements in this clause. For example, address class profiles are not defined in ISO 19160-1 and they can therefore not comply with ISO 19160-1, Annex B; the publishing, submission, updating and using of address profiles should be specified in the context of the register; the role of the register during interchange of addresses is not specified;
+* Revise clause 6 to conform to and be harmonized with ISO 19160-1 and the address profile register.
+
+
+ID: US-039
+
+* 6.2.1
+* ge
+* There is no reference to Figure 1 or other figures in the text. ISO Directives state:
+28.4 Referencing
+Each figure shall be explicitly referred to within the text.
+Use, for example, the following forms for references to figures and subfigures:
+• “Figure 3 illustrates…”;
+• “See Figure 6 b)”.
+* Add reference to all figures within the text.
+
+
+ID: US-040
+
+* 6.2.2
+* ed
+* Title of clause is ‘Creating address profiles and address class profiles’ but text only discusses creating address class profiles.
+* Change title of clause or include/update text with discussion of address profile creation.
+
+
+ID: GB-041
+
+* 6.2.6
+* Te
+* Surely the process for retiring an address profile in the register is for the submitting organization to propose retirement? The register manager and/or control body processes that submission, and if they agree to the retirement, the register manager creates the new version with status = retired?
+The submitting organisation is obviously free to advertise the fact, but surely it is the status in the register which is the authoritative statement of retired status?
+* Reconsider this clause.
+
+
+ID: GB-042
+
+* 6.3.2
+* Ed
+* Avoid “should in descriptive text. “Should” is reserved in ISO for recommendations. Alternatively, convert this statement into a numbered recommendation
+* Change “Conforming applications should not expect general users” to something like “General users cannot be expected”
+
+
+ID: GB-043
+
+* 6.3.2
+
+
+* Ed
+* Avoid “shall” in descriptive text. “Shall” is reserved in ISO for requirements. (Alternatively, convert this statement into a numbered requirement) Also, surely it isn’t actually necessary for the retrieval to be in the past?
+* Delete “The desired address class profile shall be already retrieved for creating a profile-compliant address that conforms to it”. Add at end “By using the form associated with the address class profile, the user is guided to create a valid address. The address may be validated against the profile, or against a locally stored copy of the profile, extracted from the register.”
+
+
+
+ID: US-044
+
+* 6.3.2
+* ed
+* Title of clause has typo: ‘Creating a profile-complaint address’
+* Fix typo: ‘Creating a profile-compliant address’
+
+
+ID: GB-045
+
+* 6.3.4
+* Ed
+* Avoid “should in descriptive text. “Should” is reserved in ISO for recommendations.
+Alternatively, convert this statement into a numbered recommendation
+* Replace “The recipient or service that receives an interchange address instance either already has the interchange address class profile or should obtain the interchange address class profile definition.”
+with something like “The recipient or service that receives an interchange address instance may choose to validate the address against the profile, retrieving it from the register”
+
+
+ID: ZA 17-046
+
+* 6.3.5
+* It not clear what the recipient or service is and which role they play.
+* Clarify the role of the recipient and service.
+
+
+ID: ZA 15-047
+
+* Pg 11
+* 6.3.5.1
+* te
+* Cannot open the two hyperlinks in this paragraph.
+
+
+ID: US-048
+
+* 6.3.5.1
+* ge
+* It’s unclear how the text in this clause relates to the title, Improving quality of an interchange address. There are several phrases such as “improving conformance level”, “address structure”, and “fully–specified address structure” that lack context and explanation. Also this clause seems to relate to Clause 13, Address feature, but there is no explanation as to how.
+* Expand on this section with explanation of terms and concepts introduced. Providing examples are also recommended. Explain how this clause relates to Clause 13, Address feature if appropriate.
+
+
+ID: ZA 16-049
+
+* Pg 11
+* 6.3.5.2
+* te
+* Cannot open the hyperlink in this paragraph.
+
+
+ID: ZA 18-050
+
+* 6.3.6
+* It not clear what the processor is and which role it plays.
+* Clarify the role of the processor.
+
+
+ID: ZA 20-051
+
+* 7
+* Te
+* Tautology in “their instances will be compliant to ISO 19160-1 without any compatibility issues”
+* Replace with: “their instances will be compliant to ISO 19160-1”
+
+
+ID: ZA 19-052
+
+* 7
+
+* Te
+* An ISO 19160-1 Address class included in a profile of ISO 19160-1 is already compliant with the profile. There is no need to have a ProfileCompliantAddress class.
+* This part of the standard needs to be revised to conform and be harmonized with ISO 19160-1.
+
+
+ID: US-053
+
+* 7
+* ge
+* UML figures are very difficult to read in PDF.
+* Create more readable UML figures throughout the document.
+
+
+-054
+
+* Page 12 Figure 3
+* 7
+
+* Figure 3
+* Clearance
+* Cannot read the Figure 3.
+* Need to be improved in terms of resolution
+
+
+ID: ZA 21-055
+
+* 8
+* Ed
+* These types are defined and available in the harmonized model.
+* Confirm with the HMMG whether they should be included in ISO 19160-6.
+
+
+ID: GB-056
+
+* 8.1, 9, 12, 13, 17
+* Figure 4, Figure 5, Figure 8, Figure 9, Figure 13
+* Te
+* These UML diagrams do not look like ones that has been harmonised with the TC211 model. For example, coping the class names with the relevant standard usually appears using the UML package syntax similar to “iso19115:EX_Extent”
+This also applies to the text heading of each sub clause of 8.1 and to the Data Types given in Table 1
+* Harmonize the model & use the resulting diagrams.
+
+
+ID: ZA 22-057
+
+* 9.1
+* Te
+* ISO 19160-1 defines
+
+
+ID: GB-058
+
+* 9.1, 9.2, 9.3, 10.1, 10.2, 13.4, 17.8
+* Table 1, Table 2, Table 3, Table 5, Table 6, Table 13, Table 26
+* Te
+* These tables should be generated from the harmonised model. The data types will then have the appropriate names, scoped by package.
+* Harmonize the model & generate the tables from the model.
+
+
+ID: ZA 24-059
+
+* Pg 16
+* 10
+* Figure 6
+* ed
+* Cannot read anything on the image of the data model, and therefore cannot comment on it.
+
+
+-060
+
+* Page 16 Figure 6
+* 10
+* Figure 6
+* Clearance
+* Cannot read the Figure 6.
+* Need to be improved in terms of resolution
+
+
+ID: GB-061
+
+* 10
+* Figure 6
+* Ed
+* This figure is too blurred to review
+* Replace the figure with one from the harmonised model and ensure it is legible.
+
+
+ID: ZA 25-062
+
+* 10.1
+* Table 5
+* Te
+* A profile is not necessarily specified per country; it could also be specified for a specific community (e.g. postal operators) or a region (e.g. INSPIRE for Europe or the standard for Australia and New Zealand).
+* Rename the attribute and use a different type.
+
+
+ID: ZA 26-063
+
+* 10.2
+* Te
+* The terminology does not conform to ISO 191601, e.g. what is referred to here as address formats, is defined as address class in ISO 191601.
+* Revise to conform to ISO 19160-1.
+
+
+ID: GB-064
+
+* 10.3
+
+* Table 7
+* Te
+* Avoid “shall” in a definition (here embedded in a table). “Shall” is reserved in ISO for requirements.
+Question for HMMG? How to deal with requirements that are caused by constraints in the data models? Should they be called out as requirements of the standard, or left implicit in a general requirement to adhere to the model.
+* Either call this out as an identified requirement of the standard
+Or add it as an OCL “unique” constraint on the model
+
+
+ID: GB-065
+
+* 10.4
+
+* Second paragraph
+* Ed/Te
+* Avoid “MUST” in ISO documents. Number (identify) all requirements. Also, grammar
+* Change “A ProfileComplinatAddress MUST conform to this AddressComponentSpecification to specifies its components.” To “Requirement N: A ProfileComplinatAddress shall conform to this AddressComponentSpecification to specify its components.
+
+
+
+
+ID: GB-066
+
+* Page 19 Figure 7
+* 11
+
+* Figure 7
+* Clearance
+* Cannot read the Figure 7.
+* Need to be improved in terms of resolution
+
+
+ID: GB-067
+
+* 11
+* Figure 7
+* Ed/Te
+* This UML diagram does not look to have been harmonised. It uses an unusual syntax for labelling the association.
+Also, ISO doesn’t like text in the “undivided part” of a clause that then has sub clauses
+* Harmonise the model & use the diagram from that.
+
+
+ID: ZA 27-068
+
+* Pg 19
+* 11
+* Figure7
+* ed
+* Cannot read anything on the image of the data model, and therefore cannot comment on it.
+
+
+ID: ZA 28-069
+
+* 11.1
+* Te
+* An ISO 19160-1 Address class included in a profile of ISO 19160-1 is already compliant with the profile. There is no need to have a ProfileCompliantAddress class.
+* See ZA 1 for examples of profiles.
+
+
+ID: GB-070
+
+* 11.1
+
+* Second paragraph
+* Avoid “MUST” in ISO documents. Number all requirements.
+* Change “A ProfileCompliantAddress MUST conform” to “Requirement N: A ProfileCompliantAddress shall conform”
+
+
+ID: ZA 29-071
+
+* 11.2
+* Te
+* An ISO 19160-1 AddressComponent class included in a profile of ISO 19160-1 is already compliant with the profile. There is no need to have a ProfileCompliantAddressComponent class.
+* See ZA 1 for examples of profiles.
+
+
+ID: GB-072
+
+* 11/2
+* Second paragraph
+* Avoid “MUST” in ISO documents. Number all requirements.
+* Change “MUST” to “shall” & number the requirement.
+
+
+ID: ZA 23-073
+
+* Pg 12
+* 12
+* Figure 3
+* ed
+* Cannot read anything on the image of the data model, and therefore cannot comment on it.
+
+-074
+
+* Page 20 Figure 8
+* 12
+* Figure 8
+* Clearance
+* Cannot read the Figure 8
+* Need to be improved in terms of resolution
+
+
+ID: ZA 30-075
+
+* Pg 20
+* 12
+* Figure8
+* ed
+* Cannot read anything on the image of the data model, and therefore cannot comment on it.
+
+
+ID: US-076
+
+* 13
+* ed
+* Related topics of sub-clauses are not presented together. For example, SpecificationLevel is clause 13.2 and SpecificationLevelValue is 13.5, QualityStatus is 13.3 and QualityCode is 13.6, etc.
+* Consider combining related topics into one clause or reorganize 13 so that related topics are presented consecutively.
+
+
+ID: US-077
+
+* 13.2
+* ge
+* This clause needs more clarification. The term “structure” is used but the text implies “parsed”. An address can be syntactically (structurally) correct even if not maximally parsed.
+Also it should be noted that even if a fully parsed form was presented to a common person, it could still be filled out partially or completely unparsed.
+In addition, “SpecificationLevel” does not seem to capture what is being indicated.
+* Add text and examples to clarify what is meant by “structured”. Consider using different terminology (e.g., parsed). Consider renaming “SpecificationLevel” (e.g., StructureLevel, ParseLevel, etc.).
+
+
+ID: US-078
+
+* 13.3
+* ge
+* This clause pertains to address quality but there is no reference to ISO 19160-3 here or elsewhere in the document. While evaluating address data quality is out of scope for part 6, it should recommend the use of part 3 for data providers or users.
+* At a minimum, add a statement such as:
+Address data evaluation is out of scope of this international standard. However, address data managers, aggregators, and users should refer to ISO 19160-3 Address data quality for address data quality evaluation and reporting guidelines.
+
+
+ID: CN-079
+
+* General
+* ge
+* There is a risk that the digital address may be modified intentionally, so it is better to add content about verification mechanism
+* It is better to add content about verification mechanism
+
+
+ID: CN-080
+
+* General
+* ge
+* Compared with general address, machine-readable address has its own special properties, so it is better to add content about the quality of machine-readable address
+* It is better to add content about the quality of machine-readable address
+

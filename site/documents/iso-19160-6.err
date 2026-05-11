@@ -1,0 +1,232 @@
+/Users/mulgogi/src/calconnect/csd-digital-addresses/site/documents/iso-19160-6.err errors
+
+
+== Style
+
+(): _example_of_address_profiles_defined_in_iso_19160_1:Example of address profiles defined in ISO 19160-1: subclause is only child
+(): _primitive_and_core_data_types:Primitive and core data types: subclause is only child
+(XML Line 000001): number not broken up in threes: 2396
+	<p id="_8519d2fa-09aa-d069-90db-2adffb6695be">unique identifier for a resource, structured in conformance with IETF RFC 2396</p>
+(XML Line 000001): number not broken up in threes: 24229
+	<note type="Unpublished-Status">
+	                          <p id="_8a7b8316-a4e6-e0ce-a434-f198629a56b2">Under preparation. (Stage at the time of publication ISO/DIS 24229).</p></note>
+(XML Line 000002): number not broken up in threes: 24229
+	<p id="_8a7b8316-a4e6-e0ce-a434-f198629a56b2">Under preparation. (Stage at the time of publication ISO/DIS 24229).</p>
+(XML Line 000002): number not broken up in threes: 24229
+	<note type="Unpublished-Status">
+	                          <p id="_21a3283f-b073-7f02-fbe4-091332c50518">Under preparation. (Stage at the time of publication ISO/DIS 24229).</p></note>
+(XML Line 000003): number not broken up in threes: 24229
+	<p id="_21a3283f-b073-7f02-fbe4-091332c50518">Under preparation. (Stage at the time of publication ISO/DIS 24229).</p>
+(XML Line 000059): Foreword may contain permission: Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights
+	<foreword id="_563200c6-c03a-761a-a004-e6f591ca64cc" obligation="informative"><title>Foreword</title><p id="_9c8ab905-d2d9-3934-0dfa-9764a6352dcf">ISO (the International Organization for Standardization)
+	is a worldwide federation of national standards bodies (ISO member bodies). The work of preparing International Standards is normally carried out through ISO technical committees. Each member body interested in a subject for which a technical committee has been established has the right to be represented on that committee. International organizations, governmental and non-governmental, in liaison with ISO, also take part in the work. ISO collaborates closely with the International Electrotechnical Commission (IEC) on all matters of electrotechnical standardization.</p>
+	<p id="_f1083fe6-457b-ed9f-a5a1-091fed6f8b06">The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular the different approval criteria needed for the different types of ISO documents should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see www.iso.org/directives).</p>
+	<p id="_9e049049-8b46-3d3e-97b9-eebd6fb12fcb">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see www.iso.org/patents).</p>
+	<p id="_3ab973f1-2a74-b4ca-84d1-ea4900a47843">Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p>
+(XML Line 000059): Foreword may contain requirement: ISO shall not be held responsible for identifying any or all such patent rights
+	<foreword id="_563200c6-c03a-761a-a004-e6f591ca64cc" obligation="informative"><title>Foreword</title><p id="_9c8ab905-d2d9-3934-0dfa-9764a6352dcf">ISO (the International Organization for Standardization)
+	is a worldwide federation of national standards bodies (ISO member bodies). The work of preparing International Standards is normally carried out through ISO technical committees. Each member body interested in a subject for which a technical committee has been established has the right to be represented on that committee. International organizations, governmental and non-governmental, in liaison with ISO, also take part in the work. ISO collaborates closely with the International Electrotechnical Commission (IEC) on all matters of electrotechnical standardization.</p>
+	<p id="_f1083fe6-457b-ed9f-a5a1-091fed6f8b06">The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular the different approval criteria needed for the different types of ISO documents should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see www.iso.org/directives).</p>
+	<p id="_9e049049-8b46-3d3e-97b9-eebd6fb12fcb">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see www.iso.org/patents).</p>
+	<p id="_3ab973f1-2a74-b4ca-84d1-ea4900a47843">Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p>
+(XML Line 000059): Foreword may contain recommendation: In particular the different approval criteria needed for the different types of ISO documents should be noted
+	<foreword id="_563200c6-c03a-761a-a004-e6f591ca64cc" obligation="informative"><title>Foreword</title><p id="_9c8ab905-d2d9-3934-0dfa-9764a6352dcf">ISO (the International Organization for Standardization)
+	is a worldwide federation of national standards bodies (ISO member bodies). The work of preparing International Standards is normally carried out through ISO technical committees. Each member body interested in a subject for which a technical committee has been established has the right to be represented on that committee. International organizations, governmental and non-governmental, in liaison with ISO, also take part in the work. ISO collaborates closely with the International Electrotechnical Commission (IEC) on all matters of electrotechnical standardization.</p>
+	<p id="_f1083fe6-457b-ed9f-a5a1-091fed6f8b06">The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular the different approval criteria needed for the different types of ISO documents should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see www.iso.org/directives).</p>
+	<p id="_9e049049-8b46-3d3e-97b9-eebd6fb12fcb">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see www.iso.org/patents).</p>
+	<p id="_3ab973f1-2a74-b4ca-84d1-ea4900a47843">Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p>
+(XML Line 000068): Introduction may contain requirement: Additional caution shall be placed on the accuracy (or lack thereof) of
+human input addresses
+	<introduction id="_introduction" obligation="informative"><title>Introduction</title><clause id="_purpose" inline-header="false" obligation="informative"><title>Purpose</title><p id="_bd304931-189c-4777-3f21-b6d97afe763e">Addresses are among the most commonly exchanged information on the
+	Internet, and the interchange of them is crucial to a number of
+	Internet applications, such as electronic commerce, contact exchange,
+	non-postal deliveries, as well as location scheduling.</p>
+	<p id="_9f0b690c-bedb-e140-e958-53ec79336d0f">Yet, addresses can mean much more than just geolocation information:</p>
+(XML Line 000235): possible decimal point: 4.14
+	<termsource status="identical" type="authoritative">
+	<origin bibitemid="ISO19103" type="inline" citeas="ISO 19103:2015"><localityStack><locality type="clause"><referenceFrom>4.14</referenceFrom></locality></localityStack></origin>
+	</termsource>
+(XML Line 000248): possible decimal point: 3.3
+	<termsource status="identical" type="authoritative">
+	<origin bibitemid="ISO-IEC_9798-3" type="inline" citeas="ISO/IEC 9798-3:2019"><localityStack><locality type="clause"><referenceFrom>3.3</referenceFrom></locality></localityStack></origin>
+	</termsource>
+(XML Line 000259): possible decimal point: 3.3
+	<termsource status="identical" type="authoritative">
+	<origin bibitemid="ISO639-3" type="inline" citeas="ISO 639-3:2007"><localityStack><locality type="clause"><referenceFrom>3.3</referenceFrom></locality></localityStack></origin>
+	</termsource>
+(XML Line 000263): possible decimal point: 4.9
+	<termsource status="identical" type="authoritative">
+	<origin bibitemid="ISO19115-1" type="inline" citeas="ISO 19115-1:2014"><localityStack><locality type="clause"><referenceFrom>4.9</referenceFrom></locality></localityStack></origin>
+	</termsource>
+(XML Line 000280): possible decimal point: 4.23
+	<termsource status="modified" type="authoritative">
+	<origin bibitemid="ISOIEC10179" type="inline" citeas="ISO/IEC 10179:1996"><localityStack><locality type="clause"><referenceFrom>4.23</referenceFrom></locality></localityStack></origin>
+	<modification>
+	<p id="_9ed8970b-c79a-5e9b-82d7-34540d4de18c">removal of initial “A”, moved second sentence
+	into Note to entry.</p>
+(XML Line 000291): possible decimal point: 3.23
+	<termsource status="identical" type="authoritative">
+	<origin bibitemid="ISO-IEC_9798-1" type="inline" citeas="ISO/IEC 9798-1:2010"><localityStack><locality type="clause"><referenceFrom>3.23</referenceFrom></locality></localityStack></origin>
+	</termsource>
+(XML Line 000298): possible decimal point: 4.5
+	<termsource status="identical" type="authoritative">
+	<origin bibitemid="ISO19106" type="inline" citeas="ISO 19106:2004"><localityStack><locality type="clause"><referenceFrom>4.5</referenceFrom></locality></localityStack></origin>
+	</termsource>
+(XML Line 000302): possible decimal point: 3.28
+	<termsource status="identical" type="authoritative">
+	<origin bibitemid="ISO-IEC_9798-1" type="inline" citeas="ISO/IEC 9798-1:2010"><localityStack><locality type="clause"><referenceFrom>3.28</referenceFrom></locality></localityStack></origin>
+	</termsource>
+(XML Line 000313): possible decimal point: 2.11
+	<termsource status="identical" type="authoritative">
+	<origin bibitemid="ISO-IEC_29149-2012" type="inline" citeas="ISO/IEC TR 29149:2012"><localityStack><locality type="clause"><referenceFrom>2.11</referenceFrom></locality></localityStack></origin>
+	</termsource>
+(XML Line 000317): possible decimal point: 3.7
+	<termsource status="identical" type="authoritative">
+	<origin bibitemid="ISO15924" type="inline" citeas="ISO 15924:2004"><localityStack><locality type="clause"><referenceFrom>3.7</referenceFrom></locality></localityStack></origin>
+	</termsource>
+(XML Line 000321): possible decimal point: 3.8
+	<termsource status="identical" type="authoritative">
+	<origin bibitemid="ISO15924" type="inline" citeas="ISO 15924:2004"><localityStack><locality type="clause"><referenceFrom>3.8</referenceFrom></locality></localityStack></origin>
+	</termsource>
+(XML Line 000332): number not broken up in threes: 2396
+	<termnote id="_e466fc0d-876a-f931-e9bd-b92b84b0b733">
+	<p id="_8f59a8d8-9c88-4db9-6b15-95e7acd72acb">The general syntax is <tt>&lt;scheme&gt;::&lt;scheme-specific-part&gt;</tt>. The hierarchical
+	syntax with a namespace is <tt>&lt;scheme&gt;://&lt;authority&gt;&lt;path&gt;?&lt;query&gt;</tt> — see RFC
+	2396.</p>
+	</termnote>
+(XML Line 000333): number not broken up in threes: 2396
+	<p id="_8f59a8d8-9c88-4db9-6b15-95e7acd72acb">The general syntax is <tt>&lt;scheme&gt;::&lt;scheme-specific-part&gt;</tt>. The hierarchical
+	syntax with a namespace is <tt>&lt;scheme&gt;://&lt;authority&gt;&lt;path&gt;?&lt;query&gt;</tt> — see RFC
+	2396.</p>
+(XML Line 000337): possible decimal point: 3.1
+	<termsource status="identical" type="authoritative">
+	<origin bibitemid="ISO_19136-1" type="inline" citeas="ISO 19136-1:2020"><localityStack><locality type="clause"><referenceFrom>3.1.62</referenceFrom></locality></localityStack></origin>
+	</termsource>
+(XML Line 000401): Scope must occur before Terms and Definitions
+	<clause id="_address_profile_registry" inline-header="false" obligation="normative"><title>Address profile registry</title><clause id="_general_2" inline-header="false" obligation="normative"><title>General</title><p id="_68e39b7b-cc34-5d68-31e2-e3c9680c30a9">The ISO address profile registry will be managed with version control software,
+	publicly available with an API and a graphical user interface, such as a web-based interface,
+	to satisfy both programatic and human use for the dissemination, display and management
+	of the registry.</p>
+	<p id="_4638b238-fd78-c780-6c21-1e3089f209ce">The ISO address profile register is a non-hierarchical register. References to principal registers and sub-registers are excluded from this document.</p>
+(XML Line 000422): possible decimal point: 6.4
+	<p id="_1e05e29a-0190-ebcc-9c98-a49ac4e62c09">Requirement 8 (<eref type="inline" bibitemid="ISO19135-1" citeas="ISO 19135-1:2015"><localityStack><locality type="locality:requirement"><referenceFrom>8</referenceFrom></locality></localityStack></eref>): The register manager shall accept proposals from submitting organizations and manage the proposals as specified in <eref type="inline" bibitemid="ISO19135-1" citeas="ISO 19135-1:2015"><localityStack><locality type="clause"><referenceFrom>6.4</referenceFrom></locality></localityStack></eref>. The register manager shall pass proposals to the control body for decisions as to acceptability and shall serve as the point of contact between the control body and the submitting organization for negotiations regarding changes to the proposal.</p>
+(XML Line 000465): Scope must occur before Terms and Definitions
+	<clause id="_process_of_address_profile_and_address_interchange" inline-header="false" obligation="normative"><title>Process of address profile and address interchange</title><clause id="_general_3" inline-header="false" obligation="normative"><title>General</title><p id="_56dbe3ff-f2da-435f-ba89-e0ec0525d9bc">Practical usage of AXO models relies on the establishment of an
+	address profile registry.</p>
+	<p id="_2e02d528-a5b6-33bb-ee08-97c39584b5ff">This clause sets out specific requirements in relation with <eref type="inline" bibitemid="ISO19135-1" citeas="ISO 19135-1:2015"/>.</p>
+	<p id="_a73f63d7-221d-a3b7-52cd-82b1b440095a">The roles and responsibilities of the register owner, register manager, submitting organizations, control body, registry manager and register user are set out in <eref type="inline" bibitemid="ISO19135-1" citeas="ISO 19135-1:2015"><localityStack><locality type="clause"><referenceFrom>5</referenceFrom></locality></localityStack></eref>.</p>
+	<p id="_9de87d0d-70eb-b46b-46c7-adb9d605b75f">Data structures that are shared on the address profile registry include address profiles and their metadata in machine-readable format.</p>
+(XML Line 000656): Scope must occur before Terms and Definitions
+	<clause id="_address_profile_model_overview" inline-header="false" obligation="normative"><title>Address profile model overview</title><p id="_64885ab6-0e71-7264-8b96-edd06324da08">The address profile model defined in this document consists of three major layers:</p>
+	<ul id="_aad0403a-ada9-81c7-bbf8-b972cec3e862">
+	<li>
+	<p id="_6bd6bbd7-6554-a310-318f-d7250fabe0d8">the <tt>AddressProfile</tt> model as a container of profiles of addresses and
+	address components,</p>
+(XML Line 000805): Scope must occur before Terms and Definitions
+	<clause id="ix-data-types" inline-header="false" obligation="normative">
+	<title>Data types</title>
+	<clause id="_primitive_and_core_data_types" inline-header="false" obligation="normative"><title>Primitive and core data types</title><p id="_c3b077b8-6bc1-492d-dcb4-0cb5cf4d60b6">These are the common data types used within this document.</p>
+	<p id="_38f29d80-9b6d-c0c9-ff4d-aab7bec2a404">Primitive data types (<tt>PrimitiveTypes</tt>) are defined in <eref type="inline" bibitemid="ISO19103" citeas="ISO 19103:2015"><localityStack><locality type="clause"><referenceFrom>7.2</referenceFrom></locality></localityStack></eref>,
+	including:</p>
+(XML Line 000808): possible decimal point: 7.2
+	<p id="_38f29d80-9b6d-c0c9-ff4d-aab7bec2a404">Primitive data types (<tt>PrimitiveTypes</tt>) are defined in <eref type="inline" bibitemid="ISO19103" citeas="ISO 19103:2015"><localityStack><locality type="clause"><referenceFrom>7.2</referenceFrom></locality></localityStack></eref>,
+	including:</p>
+(XML Line 000885): Scope must occur before Terms and Definitions
+	<clause id="ix-common" inline-header="false" obligation="normative"><title>Common models</title><sourcecode id="_bdac2a3b-2fd6-4376-587b-42bfbc419d1a" lang="lutaml">diagram CommonModels {
+	  title 'Common models'
+	  caption 'Common models to be used in this standard'
+	  class Localization {
+	    definition {
+(XML Line 000990): Scope must occur before Terms and Definitions
+	<clause id="address-profile" inline-header="false" obligation="normative"><title>Address profile</title><sourcecode id="_6a843851-440c-9fff-63cd-e39e361682f4" lang="lutaml">diagram AddressProfile {
+	  title 'Address profile'
+	  caption 'Address profile data model'
+	  association {
+	    owner AddressProfile
+(XML Line 001192): Scope must occur before Terms and Definitions
+	<clause id="profile-compliant-address" inline-header="false" obligation="normative"><title>Profile compliant address</title><sourcecode id="_bf140ddc-859e-03e4-8ab2-88acb7af4baf" lang="lutaml">diagram ProfileCompliantAddress {
+	  title 'Profile compliant address'
+	  caption 'Profile compliant address data model'
+	  association {
+	    owner AddressClassProfile
+(XML Line 001396): Scope must occur before Terms and Definitions
+	<clause id="ix-address-class-profile" inline-header="false" obligation="normative"><title>InterchangeAddressClassProfile overview</title><sourcecode id="_d806cf05-b50c-6d20-8404-06bcdf112012" lang="lutaml">diagram InterchangeAddressClassProfile {
+	  title 'InterchangeAddressClassProfile overview'
+	  caption 'InterchangeAddressClassProfile model'
+	  association {
+	    owner InterchangeAddressClassProfile
+(XML Line 001673): Scope must occur before Terms and Definitions
+	<clause id="address-feature" inline-header="false" obligation="normative"><title>Address feature</title><sourcecode id="_83e5fc3f-da78-923b-09eb-6dec40c683e5" lang="lutaml">diagram AddressFeature {
+	  title 'Address feature'
+	  caption 'Address feature data model'
+	  class AddressFeature {
+	    definition {
+(XML Line 001821): Scope must occur before Terms and Definitions
+	<clause id="layout-template" inline-header="false" obligation="normative"><title>Layout template</title><sourcecode id="_efcd6dab-a500-81b6-7276-239ca82f846f" lang="lutaml">diagram LayoutTemplate {
+	  title 'Layout template'
+	  caption 'Layout template data model'
+	  class LayoutTemplate {
+	    definition {
+(XML Line 001967): Scope must occur before Terms and Definitions
+	<clause id="layout-line" inline-header="false" obligation="normative"><title>LayoutLine</title><sourcecode id="_db8bbc4a-2bd3-d7c1-94d1-ed499ceb3388" lang="lutaml">diagram LayoutLine {
+	  title 'Layout line'
+	  caption 'Layout line data model'
+	  class LayoutLine {
+	    definition {
+(XML Line 001999): Scope must occur before Terms and Definitions
+	<clause id="display-template" inline-header="false" obligation="normative"><title>Display template</title><sourcecode id="_ffeb34d7-5697-e78b-2757-e10fa2123a01" lang="lutaml">diagram DisplayTemplate {
+	  title 'Display template'
+	  caption 'Display template data model'
+	  association {
+	    owner TextElement
+(XML Line 002090): Scope must occur before Terms and Definitions
+	<clause id="form-template" inline-header="false" obligation="normative"><title>Form template</title><sourcecode id="_89263cce-a802-745f-22b4-16f2c7985f81" lang="lutaml">diagram FormTemplate {
+	  title 'Form template'
+	  caption 'Form template data model'
+	  association {
+	    owner FormTemplate
+(XML Line 002254): 'see <eref type="inline" bibitemid="ISO19135-1" citeas="ISO 19135-1:2015"/>' is pointing to a normative reference
+	<eref type="inline" bibitemid="ISO19135-1" citeas="ISO 19135-1:2015"/>
+(XML Line 002600): number not broken up in threes: 1109
+	<example id="_da48018c-310a-cd4f-6ee0-a42223b1d121">
+	<name>Fully expanded sample address</name>
+	<p id="_fe124f67-19da-9edc-99f7-01953aae2ff8">Suite 1109,
+	Floor 11,
+	Central Building,
+(XML Line 002602): number not broken up in threes: 1109
+	<p id="_fe124f67-19da-9edc-99f7-01953aae2ff8">Suite 1109,
+	Floor 11,
+	Central Building,
+	1-3 Pedder Street,
+	Central,
+(XML Line 002616): number not broken up in threes: 1109
+	<example id="_cbdbdd8a-1be0-8aea-9eb7-19aa2456674a">
+	<name>Shortened sample address</name>
+	<p id="_b4eebe27-c01e-0c24-2bdd-5d190bb62dba">Suite 1109,
+	1 Pedder Street,
+	Central,
+(XML Line 002618): number not broken up in threes: 1109
+	<p id="_b4eebe27-c01e-0c24-2bdd-5d190bb62dba">Suite 1109,
+	1 Pedder Street,
+	Central,
+	Hong Kong</p>
+(XML Line 002628): Example may contain permission: For instance, some buildings have split floors — rooms may have the same floor
+identifier, but is actually inaccessible from the same floor
+	<example id="_206ab153-8837-ac29-48ec-37112838235c">
+	<p id="_14f6c056-64e2-7baf-b2a5-62be51548297">Written instructions on how to deliver to a place can be unambiguous,
+	but terribly difficult to locate.
+	For instance, some buildings have split floors — rooms may have the same floor
+	identifier, but is actually inaccessible from the same floor.</p>
+(XML Line 002634): Hanging paragraph in clause
+	<annex id="AnnexC" inline-header="false" obligation="informative"><title>Examples of objects specified in this document</title><p id="_6bee5a21-4216-619f-61f3-9bf3d1293441">Models specified in this document can be represented in various
+	object structures, including in XML <eref type="inline" bibitemid="ISO19139" citeas="ISO/TS 19139:2007"/> and in JSON.</p>
+	<clause id="_addressprofile_2" inline-header="false" obligation="informative"><title>AddressProfile</title><sourcecode id="_9ebfdf5a-3e36-6630-d15e-e04f563911fc" lang="json">{
+	  "id": "http://standards.isotc211.org/19160/-6/tc211-sample.adp",
+	  "type": "iso-19160-address-profile",
+
+
+== Metanorma XML Syntax
+
+(XML Line 000227:42): element "eref" missing required attributes "citeas" and "type"
+(XML Line 003263:261): character content of element "from" invalid; must be a year
+(XML Line 003264:289): character content of element "from" invalid; must be a year
