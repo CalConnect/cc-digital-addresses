@@ -55,6 +55,8 @@ GEM
       mini_portile2 (~> 2.6)
     emf2svg (1.0.0-x86_64-darwin)
       ffi (~> 1.0)
+    emf2svg (1.0.0-x86_64-linux)
+      ffi (~> 1.0)
     equivalent-xml (0.6.0)
       nokogiri (>= 1.4.3)
     excavate (0.3.0)
@@ -68,6 +70,8 @@ GEM
     expressir (1.0.0-arm64-darwin)
       thor (~> 1.0)
     expressir (1.0.0-x86_64-darwin)
+      thor (~> 1.0)
+    expressir (1.0.0-x86_64-linux)
       thor (~> 1.0)
     extract_ttc (0.1.0)
       ffi
@@ -101,6 +105,8 @@ GEM
     ffi-libarchive-binary (0.2.5-arm64-darwin)
       ffi-libarchive (~> 1.0)
     ffi-libarchive-binary (0.2.5-x86_64-darwin)
+      ffi-libarchive (~> 1.0)
+    ffi-libarchive-binary (0.2.5-x86_64-linux)
       ffi-libarchive (~> 1.0)
     fontist (1.12.0)
       down (~> 5.0)
@@ -378,6 +384,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.12.5-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.12.5-x86_64-linux)
+      racc (~> 1.4)
     nokogiri-styles (0.1.2)
       nokogiri
     optout (0.0.2)
@@ -394,7 +402,7 @@ GEM
       method_source (~> 1.0)
     public_suffix (4.0.6)
     racc (1.6.0)
-    rack (2.2.3)
+    rack (2.2.23)
     rake (13.0.6)
     rchardet (1.8.0)
     rdf (3.1.15)
@@ -655,6 +663,7 @@ PLATFORMS
   arm64-darwin-21
   x86_64-darwin-19
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   metanorma-cli
