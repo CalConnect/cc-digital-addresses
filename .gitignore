@@ -1,9 +1,30 @@
+
+!sources/**/*.xml
+# compiled files of plantuml models
+# relaton cache
+*.abort
+*.doc
+*.err
+*.html
+*.pdf
+*.rxl
+*.swp
+*.tmp.xml
+*.xml
+*_files/
+*_images/
 .DS_Store
+.bundle/
+.idea/
 .swp
 .tmp.xml
-
-# compiled files of plantuml models
+.vscode/
+Gemfile.lock
+deploy_key
+deploy_key.enc
+deploy_key.pub
+documents/
+published/
+relaton/
+relaton/cache/*_site/
 sources/models/plantuml2/**/*
-
-# relaton cache
-relaton/cache/*
